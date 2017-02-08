@@ -1,0 +1,23 @@
+{
+	"name": "drift",
+	"version": "1.0.0",
+	"description": "Franz Drift Plugin",
+	"main": "index.js",
+	"author": "Matthias Burtscher",
+	"license": "MIT",
+	"config": {
+		"serviceURL": "https://app.drift.com/inboxes/",
+		"serviceName": "Drift",
+		"message": "Drift is a sales communication platform that helps businesses generate more leads and close deals faster using messaging.",
+		"popup": [],
+		"hasNotificationSound": true,
+		"hasIndirectMessages": false,
+		"hasTeamID": false,
+		"customURL": false,
+		"hostedOnly": false,
+		"webviewOptions": {
+			"disablewebsecurity": ""
+		},
+		"openDevTools": false
+	}
+}
